@@ -1,0 +1,19 @@
+{
+  "generatedAt": "2026-01-27T16:07:00.955Z",
+  "model": "gemini-3-pro-image-preview",
+  "images": {
+    "title": "/Users/bryanwisk/Projects/deck-generator/output/assets/title.png",
+    "purpose": "/Users/bryanwisk/Projects/deck-generator/output/assets/purpose.png",
+    "problem": "/Users/bryanwisk/Projects/deck-generator/output/assets/problem.png",
+    "solution": "/Users/bryanwisk/Projects/deck-generator/output/assets/solution.png",
+    "whyNow": "/Users/bryanwisk/Projects/deck-generator/output/assets/whynow.png",
+    "marketSize": "/Users/bryanwisk/Projects/deck-generator/output/assets/marketsize.png",
+    "competition": "/Users/bryanwisk/Projects/deck-generator/output/assets/competition.png",
+    "product": "/Users/bryanwisk/Projects/deck-generator/output/assets/product.png",
+    "businessModel": "/Users/bryanwisk/Projects/deck-generator/output/assets/businessmodel.png",
+    "traction": "/Users/bryanwisk/Projects/deck-generator/output/assets/traction.png",
+    "team": "/Users/bryanwisk/Projects/deck-generator/output/assets/team.png",
+    "ask": "/Users/bryanwisk/Projects/deck-generator/output/assets/ask.png"
+  },
+  "costIncurred": 0.013567000000000003
+}

@@ -1,0 +1,204 @@
+{
+  "title": {
+    "description": "Company introduction slide",
+    "prompt": "Extract or synthesize the company name, primary tagline, and funding round context. The tagline should be memorable and capture ARC's essence in 5-10 words.",
+    "requiredFields": ["tagline", "subtitle"],
+    "schema": {
+      "type": "title",
+      "tagline": "string - compelling 5-10 word tagline",
+      "subtitle": "string - funding round and timing context"
+    },
+    "examples": [
+      "Transform Manufacturing with Predictive AI",
+      "The Industrial AI Platform for America",
+      "Building the National Nervous System for Industry"
+    ]
+  },
+  "purpose": {
+    "description": "Single mission statement",
+    "prompt": "Create a single declarative sentence (10-15 words) capturing what ARC does. Use the formula: We [verb] [customer] to [outcome]. Focus on ARCNet's mission as national infrastructure.",
+    "requiredFields": ["statement", "context"],
+    "schema": {
+      "type": "purpose",
+      "statement": "string - 10-15 word mission statement",
+      "context": "string - brief supporting context"
+    },
+    "examples": [
+      "We enable American manufacturers to compete globally through AI-powered optimization.",
+      "We build the infrastructure that connects every American factory to frontier AI."
+    ]
+  },
+  "problem": {
+    "description": "Pain points the company solves",
+    "prompt": "Identify 3 key problems ARC solves. Include specific statistics from the documents. Look for: manufacturing inefficiencies, materials development bottlenecks, AI infrastructure gaps, supply chain vulnerabilities, workforce challenges.",
+    "requiredFields": ["headline", "points", "statistic"],
+    "schema": {
+      "type": "problem",
+      "headline": "string - typically 'THE PROBLEM'",
+      "points": ["string - 3 specific pain points with data"],
+      "statistic": "string - supporting quote or stat",
+      "image": "string - optional image path"
+    },
+    "searchKeywords": ["problem", "challenge", "pain point", "inefficiency", "gap", "vulnerability", "bottleneck"]
+  },
+  "solution": {
+    "description": "How the company solves the problems",
+    "prompt": "Describe ARC's solution with a clear value proposition and 3 key benefits. Focus on ARCNet platform capabilities, AI-driven optimization, and materials discovery. Be specific about technical differentiation.",
+    "requiredFields": ["valueProposition", "benefits"],
+    "schema": {
+      "type": "solution",
+      "headline": "string - typically 'OUR SOLUTION'",
+      "valueProposition": "string - one sentence value prop",
+      "benefits": ["string - 3 specific benefits with outcomes"],
+      "image": "string - optional image path"
+    },
+    "searchKeywords": ["solution", "platform", "ARCNet", "approach", "technology", "enables", "delivers"]
+  },
+  "whyNow": {
+    "description": "Market timing and trends",
+    "prompt": "Identify 3 market/technology trends that make ARC timely. Look for: AI/ML advancements, manufacturing reshoring initiatives, materials science breakthroughs, government programs (CHIPS Act, etc.), supply chain localization needs.",
+    "requiredFields": ["trends"],
+    "schema": {
+      "type": "whyNow",
+      "headline": "string - typically 'WHY NOW?'",
+      "trends": [
+        {
+          "title": "string - trend name",
+          "description": "string - explanation with data"
+        }
+      ]
+    },
+    "searchKeywords": ["trend", "timing", "CHIPS", "reshoring", "AI advancement", "now possible", "inflection"]
+  },
+  "marketSize": {
+    "description": "TAM/SAM/SOM market opportunity",
+    "prompt": "Extract or estimate TAM/SAM/SOM for ARC's addressable market. Look for: industrial AI market, manufacturing software, materials informatics, government contracts potential. Include methodology and sources.",
+    "requiredFields": ["tam", "sam", "som", "growth"],
+    "schema": {
+      "type": "marketSize",
+      "headline": "string - typically 'MARKET OPPORTUNITY'",
+      "tam": "string - Total Addressable Market with $",
+      "tamDesc": "string - TAM description",
+      "sam": "string - Serviceable Addressable Market with $",
+      "samDesc": "string - SAM description",
+      "som": "string - Serviceable Obtainable Market with $",
+      "somDesc": "string - SOM description",
+      "growth": "string - growth rate and source"
+    },
+    "searchKeywords": ["market size", "TAM", "billion", "opportunity", "addressable", "CAGR", "forecast"]
+  },
+  "competition": {
+    "description": "Competitive positioning",
+    "prompt": "Identify competitors and ARC's differentiation. Create 2x2 positioning. Consider: traditional manufacturing software (Siemens, PTC), AI platforms (AWS, Google), national labs (DOE labs), defense contractors, other industrial AI startups.",
+    "requiredFields": ["competitors", "advantages"],
+    "schema": {
+      "type": "competition",
+      "headline": "string - typically 'COMPETITIVE LANDSCAPE'",
+      "xAxisLabel": "string - e.g., 'Ease of Implementation →'",
+      "yAxisLabel": "string - e.g., 'AI Capability →'",
+      "xAxisLow": "string - left axis label",
+      "xAxisHigh": "string - right axis label",
+      "competitors": [
+        {
+          "name": "string",
+          "x": "number 0-1",
+          "y": "number 0-1",
+          "isUs": "boolean"
+        }
+      ],
+      "advantages": ["string - 3-4 key differentiators"]
+    },
+    "searchKeywords": ["competitor", "versus", "differentiation", "advantage", "unique", "compared to"]
+  },
+  "product": {
+    "description": "Product features and capabilities",
+    "prompt": "Describe ARCNet platform features. Extract 3-4 key capabilities with clear descriptions. Look for: AI/ML infrastructure, data integration, predictive analytics, materials discovery, manufacturing optimization modules.",
+    "requiredFields": ["features"],
+    "schema": {
+      "type": "product",
+      "headline": "string - typically 'THE PRODUCT'",
+      "image": "string - optional product screenshot path",
+      "features": [
+        {
+          "title": "string - feature name",
+          "description": "string - what it does and benefit"
+        }
+      ]
+    },
+    "searchKeywords": ["feature", "capability", "platform", "module", "API", "dashboard", "architecture"]
+  },
+  "businessModel": {
+    "description": "Revenue model and unit economics",
+    "prompt": "Extract revenue model, pricing structure, and unit economics from documents. Look for: subscription models, government contract structures, licensing fees, partnership revenue.",
+    "requiredFields": ["model", "revenueStreams"],
+    "schema": {
+      "type": "businessModel",
+      "headline": "string - typically 'BUSINESS MODEL'",
+      "model": "string - overall model description",
+      "revenueStreams": [
+        {
+          "name": "string - tier/stream name",
+          "description": "string - pricing and details"
+        }
+      ],
+      "unitEconomics": "string - ACV, CAC, LTV, margins if available"
+    },
+    "searchKeywords": ["revenue", "pricing", "subscription", "contract", "margin", "economics", "monetization"]
+  },
+  "traction": {
+    "description": "Proof points and milestones",
+    "prompt": "Find metrics and milestones: partnerships, pilots, customers, grants, publications, technical achievements. Be specific with dates and numbers. Look for government partnerships, industry collaborations, funding received.",
+    "requiredFields": ["metrics", "milestones"],
+    "schema": {
+      "type": "traction",
+      "headline": "string - typically 'TRACTION'",
+      "metrics": [
+        {
+          "value": "string - number with unit",
+          "label": "string - what it measures"
+        }
+      ],
+      "milestones": ["string - dated milestones"]
+    },
+    "searchKeywords": ["customer", "partner", "pilot", "grant", "milestone", "achievement", "signed", "launched"]
+  },
+  "team": {
+    "description": "Founding team and advisors",
+    "prompt": "Extract team member information: names, titles, and backgrounds. Include advisors and key partners. Prioritize: directly relevant industry experience, previous startup success, technical expertise, notable affiliations.",
+    "requiredFields": ["members"],
+    "schema": {
+      "type": "team",
+      "headline": "string - typically 'THE TEAM'",
+      "members": [
+        {
+          "name": "string",
+          "title": "string",
+          "background": "string - 1-line credential",
+          "photo": "string - optional photo path"
+        }
+      ],
+      "advisors": ["string - advisor names and affiliations"]
+    },
+    "searchKeywords": ["founder", "CEO", "CTO", "team", "experience", "previously", "advisor", "board"]
+  },
+  "ask": {
+    "description": "Funding request and use of funds",
+    "prompt": "Extract funding ask: amount, round type, use of funds breakdown, and milestones the funding will achieve. Look for specific allocation percentages and target outcomes.",
+    "requiredFields": ["amount", "round", "useOfFunds", "milestones"],
+    "schema": {
+      "type": "ask",
+      "headline": "string - typically 'THE ASK'",
+      "amount": "string - funding amount with $",
+      "round": "string - round type (Seed, Series A, etc.)",
+      "useOfFunds": [
+        {
+          "percent": "string - percentage",
+          "category": "string - what funds will be used for"
+        }
+      ],
+      "milestones": ["string - what funding will achieve"],
+      "contact": "string - contact email/website"
+    },
+    "searchKeywords": ["raise", "funding", "investment", "use of funds", "milestone", "Series", "runway"]
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "name": "deck-generator",
+  "version": "2.0.0",
+  "description": "Multi-agent investor deck generator using Claude, ChatGPT, and Gemini",
+  "scripts": {
+    "pipeline": "cd pipeline && ./run-pipeline.sh",
+    "classify": "node pipeline/02-classify-context.js",
+    "synthesize": "node pipeline/03-synthesize-content.js",
+    "generate": "node pipeline/04-generate-final.js",
+    "render": "cd pipeline && ./05-render-deck.sh"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.30.0",
+    "@google/generative-ai": "^0.21.0",
+    "ajv": "^8.17.0",
+    "dotenv": "^16.4.0",
+    "openai": "^6.16.0",
+    "pptxgenjs": "^4.0.1"
+  }
+}

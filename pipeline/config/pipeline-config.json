@@ -1,0 +1,84 @@
+{
+  "version": "2.0",
+  "agents": {
+    "classifier": {
+      "provider": "anthropic",
+      "model": "claude-sonnet-4-20250514",
+      "maxTokens": 8192,
+      "temperature": 0.2,
+      "enabled": true
+    },
+    "synthesizer": {
+      "provider": "openai",
+      "model": "gpt-5.2",
+      "reasoningMode": "extended_thinking",
+      "maxTokens": 16384,
+      "temperature": 0.3,
+      "enabled": true
+    },
+    "generator": {
+      "provider": "google",
+      "model": "gemini-3-pro-preview",
+      "maxTokens": 8192,
+      "temperature": 0.4,
+      "enabled": true
+    },
+    "imageGenerator": {
+      "provider": "google",
+      "model": "gemini-3-pro-image-preview",
+      "enabled": true,
+      "imageConfig": {
+        "minDelayBetweenCalls": 2000,
+        "maxRetries": 5,
+        "baseBackoffMs": 2000,
+        "validateImages": true
+      }
+    }
+  },
+  "openai": {
+    "model": "gpt-5.2",
+    "reasoningMode": "extended_thinking",
+    "maxTokens": 16384,
+    "temperature": 0.3
+  },
+  "reasoningModes": {
+    "standard": {
+      "description": "Fast generation for quick iterations",
+      "systemSuffix": ""
+    },
+    "extended_thinking": {
+      "description": "More reasoning steps for better coherence",
+      "systemSuffix": "Think step-by-step. Consider multiple angles before synthesizing. Reason through each slide's content carefully before committing to the output."
+    },
+    "deep_research": {
+      "description": "Maximum depth, cross-reference all sources",
+      "systemSuffix": "Conduct deep analysis. Cross-reference all source documents. Verify claims with specific citations from the source material. Identify gaps and flag missing data. For each piece of information, note which source document it came from."
+    }
+  },
+  "company": {
+    "name": "Autonomous Resource Corporation",
+    "shortName": "ARC"
+  },
+  "paths": {
+    "contextDir": "../context-refs",
+    "extractedDir": "../extracted-text",
+    "userInputs": "../user-inputs",
+    "intermediate": "../intermediate",
+    "outputDir": "../output"
+  },
+  "design": {
+    "primaryColor": "1E3A5F",
+    "secondaryColor": "4A90D9",
+    "accentColor": "F5A623",
+    "darkColor": "1F2937",
+    "lightColor": "F8FAFC",
+    "fontTitle": "Georgia",
+    "fontHeading": "Arial",
+    "fontBody": "Calibri"
+  },
+  "validation": {
+    "strictMode": true,
+    "allowTBD": false,
+    "requiredCitations": true
+  }
+}

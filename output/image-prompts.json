@@ -1,0 +1,324 @@
+{
+  "title": {
+    "slideType": "title",
+    "description": "Full title slide with company name and tagline centered on dark background",
+    "content": {
+      "companyName": "Autonomous Resource Corporation",
+      "tagline": "AI-to-atom infrastructure for national manufacturing",
+      "subtitle": "Seed Round | Q1 2026"
+    },
+    "layout": "centered-hero",
+    "style": "Professional investor presentation. Use exact colors: primary #1E3A5F, secondary #4A90D9, accent #F5A623. Deep black background (#0A0A0A). Company name in large white text (Inter 600, 48-64px). Tagline in warm cream italic (Newsreader, 24px). Subtle accent line below tagline.",
+    "dimensions": "1920x1080",
+    "narrativeContext": "## NARRATIVE CONTEXT\nSlide position: 1 of 12\nStory arc phase: Opening Hook\nEmotional tone: Bold, confident",
+    "styleGuideReference": "\n## MANDATORY VISUAL SPECIFICATIONS (from style guide)\n\n### Colors\n- Deep Black: #0A0A0A (dark backgrounds)\n- Soft Black: #111111 (text on light)\n- Warm Cream: #E8E6E1 (light backgrounds)\n- Pure White: #FFFFFF (text on dark)\n- ARC Violet: #5E5CE6 (accent, highlights)\n- Status Green: #22C55E (positive indicators)\n- Data Cyan: #00D4FF (data visualization)\n\n### Typography\n- Headlines: Inter 600, 28-36px\n- Body text: Inter 400, 14-18px\n- Metrics: IBM Plex Mono 500, 48-64px\n- Labels: Inter 500 UPPERCASE, 12px, letter-spacing +0.1em\n- Taglines: Newsreader italic, 24px\n\n### Layout Rules\n- Margins: 0.5 inches on all sides\n- 40% minimum negative space\n- Left accent bar: 0.15in wide when used\n- Card padding: 0.15in internal\n\n### Content Constraints\n- Headlines: max 10 words\n- Bullets: max 3 per slide, 12 words each\n- Metrics: whole numbers (92% not 92.3%)\n- Currency: $1.2B format\n"
+  },
+  "purpose": {
+    "slideType": "purpose",
+    "description": "Purpose/mission statement slide with left accent bar",
+    "content": {
+      "headline": "OUR PURPOSE",
+      "statement": "Closing the simulation-to-production loop with higher confidence."
+    },
+    "layout": "statement-hero",
+    "style": "Professional investor presentation. Use exact colors: primary #1E3A5F, secondary #4A90D9, accent #F5A623. Warm cream background (#E8E6E1). Left accent bar in deep black (0.15in wide). Large statement text centered. Minimal, impactful.",
+    "dimensions": "1920x1080",
+    "narrativeContext": "## NARRATIVE CONTEXT\nSlide position: 2 of 12\nStory arc phase: Opening Hook\nEmotional tone: Mission-driven, authoritative",
+    "styleGuideReference": "\n## MANDATORY VISUAL SPECIFICATIONS (from style guide)\n\n### Colors\n- Deep Black: #0A0A0A (dark backgrounds)\n- Soft Black: #111111 (text on light)\n- Warm Cream: #E8E6E1 (light backgrounds)\n- Pure White: #FFFFFF (text on dark)\n- ARC Violet: #5E5CE6 (accent, highlights)\n- Status Green: #22C55E (positive indicators)\n- Data Cyan: #00D4FF (data visualization)\n\n### Typography\n- Headlines: Inter 600, 28-36px\n- Body text: Inter 400, 14-18px\n- Metrics: IBM Plex Mono 500, 48-64px\n- Labels: Inter 500 UPPERCASE, 12px, letter-spacing +0.1em\n- Taglines: Newsreader italic, 24px\n\n### Layout Rules\n- Margins: 0.5 inches on all sides\n- 40% minimum negative space\n- Left accent bar: 0.15in wide when used\n- Card padding: 0.15in internal\n\n### Content Constraints\n- Headlines: max 10 words\n- Bullets: max 3 per slide, 12 words each\n- Metrics: whole numbers (92% not 92.3%)\n- Currency: $1.2B format\n"
+  },
+  "problem": {
+    "slideType": "problem",
+    "description": "Problem slide with headline, bullets, and optional statistic callout",
+    "content": {
+      "headline": "THE BOTTLENECK",
+      "bullets": [],
+      "statistic": {
+        "value": "18–36 MONTHS",
+        "label": "CONCEPT TO QUALIFIED COMPONENT"
+      },
+      "statisticLabel": null
+    },
+    "layout": "headline-bullets-stat",
+    "style": "Professional investor presentation. Use exact colors: primary #1E3A5F, secondary #4A90D9, accent #F5A623. Warm cream background. Left accent bar. 3 bullets max, 12 words each. Statistic callout in IBM Plex Mono (48px) if present.",
+    "dimensions": "1920x1080",
+    "narrativeContext": "## NARRATIVE CONTEXT\nSlide position: 3 of 12\nStory arc phase: Act 1: The Problem\nEmotional tone: Urgent, compelling",
+    "styleGuideReference": "\n## MANDATORY VISUAL SPECIFICATIONS (from style guide)\n\n### Colors\n- Deep Black: #0A0A0A (dark backgrounds)\n- Soft Black: #111111 (text on light)\n- Warm Cream: #E8E6E1 (light backgrounds)\n- Pure White: #FFFFFF (text on dark)\n- ARC Violet: #5E5CE6 (accent, highlights)\n- Status Green: #22C55E (positive indicators)\n- Data Cyan: #00D4FF (data visualization)\n\n### Typography\n- Headlines: Inter 600, 28-36px\n- Body text: Inter 400, 14-18px\n- Metrics: IBM Plex Mono 500, 48-64px\n- Labels: Inter 500 UPPERCASE, 12px, letter-spacing +0.1em\n- Taglines: Newsreader italic, 24px\n\n### Layout Rules\n- Margins: 0.5 inches on all sides\n- 40% minimum negative space\n- Left accent bar: 0.15in wide when used\n- Card padding: 0.15in internal\n\n### Content Constraints\n- Headlines: max 10 words\n- Bullets: max 3 per slide, 12 words each\n- Metrics: whole numbers (92% not 92.3%)\n- Currency: $1.2B format\n"
+  },
+  "solution": {
+    "slideType": "solution",
+    "description": "Solution slide with value proposition and key benefits",
+    "content": {
+      "headline": "THE SOLUTION",
+      "valueProp": "",
+      "benefits": [
+        "Massively parallel experimentation increases throughput velocity.",
+        "Continuous sense–reason–act learning improves confidence.",
+        "Integrated digital workflow compresses qualification timelines."
+      ]
+    },
+    "layout": "value-prop-benefits",
+    "style": "Professional investor presentation. Use exact colors: primary #1E3A5F, secondary #4A90D9, accent #F5A623. Light background. Bold headline. Value prop in larger text. 3-4 benefits with visual hierarchy.",
+    "dimensions": "1920x1080",
+    "narrativeContext": "## NARRATIVE CONTEXT\nSlide position: 4 of 12\nStory arc phase: Act 2: The Solution\nEmotional tone: Confident, clear",
+    "styleGuideReference": "\n## MANDATORY VISUAL SPECIFICATIONS (from style guide)\n\n### Colors\n- Deep Black: #0A0A0A (dark backgrounds)\n- Soft Black: #111111 (text on light)\n- Warm Cream: #E8E6E1 (light backgrounds)\n- Pure White: #FFFFFF (text on dark)\n- ARC Violet: #5E5CE6 (accent, highlights)\n- Status Green: #22C55E (positive indicators)\n- Data Cyan: #00D4FF (data visualization)\n\n### Typography\n- Headlines: Inter 600, 28-36px\n- Body text: Inter 400, 14-18px\n- Metrics: IBM Plex Mono 500, 48-64px\n- Labels: Inter 500 UPPERCASE, 12px, letter-spacing +0.1em\n- Taglines: Newsreader italic, 24px\n\n### Layout Rules\n- Margins: 0.5 inches on all sides\n- 40% minimum negative space\n- Left accent bar: 0.15in wide when used\n- Card padding: 0.15in internal\n\n### Content Constraints\n- Headlines: max 10 words\n- Bullets: max 3 per slide, 12 words each\n- Metrics: whole numbers (92% not 92.3%)\n- Currency: $1.2B format\n"
+  },
+  "whyNow": {
+    "slideType": "whyNow",
+    "description": "Why Now slide with trend cards showing market timing",
+    "content": {
+      "headline": "WHY NOW?",
+      "trends": [
+        {
+          "title": "DOE PROJECT GENESIS",
+          "description": "Federal mobilization for AI-enabled manufacturing (Launched Nov 2025)."
+        },
+        {
+          "title": "INFRASTRUCTURE CAPEX",
+          "description": "AI infrastructure spending topped $60B in 2025."
+        },
+        {
+          "title": "STRATEGIC URGENCY",
+          "description": "Defense planners preparing for conflict window within 18 months."
+        }
+      ]
+    },
+    "layout": "trend-cards",
+    "style": "Professional investor presentation. Use exact colors: primary #1E3A5F, secondary #4A90D9, accent #F5A623. 3 horizontal trend cards. Each card has title + description. Clean card styling with subtle shadows. Accent color for card headers.",
+    "dimensions": "1920x1080",
+    "narrativeContext": "## NARRATIVE CONTEXT\nSlide position: 5 of 12\nStory arc phase: Act 3: Why Now\nEmotional tone: Timely, opportunistic",
+    "styleGuideReference": "\n## MANDATORY VISUAL SPECIFICATIONS (from style guide)\n\n### Colors\n- Deep Black: #0A0A0A (dark backgrounds)\n- Soft Black: #111111 (text on light)\n- Warm Cream: #E8E6E1 (light backgrounds)\n- Pure White: #FFFFFF (text on dark)\n- ARC Violet: #5E5CE6 (accent, highlights)\n- Status Green: #22C55E (positive indicators)\n- Data Cyan: #00D4FF (data visualization)\n\n### Typography\n- Headlines: Inter 600, 28-36px\n- Body text: Inter 400, 14-18px\n- Metrics: IBM Plex Mono 500, 48-64px\n- Labels: Inter 500 UPPERCASE, 12px, letter-spacing +0.1em\n- Taglines: Newsreader italic, 24px\n\n### Layout Rules\n- Margins: 0.5 inches on all sides\n- 40% minimum negative space\n- Left accent bar: 0.15in wide when used\n- Card padding: 0.15in internal\n\n### Content Constraints\n- Headlines: max 10 words\n- Bullets: max 3 per slide, 12 words each\n- Metrics: whole numbers (92% not 92.3%)\n- Currency: $1.2B format\n"
+  },
+  "marketSize": {
+    "slideType": "marketSize",
+    "description": "Market size slide with TAM/SAM/SOM visualization",
+    "content": {
+      "headline": "MARKET OPPORTUNITY",
+      "tam": "TBD",
+      "tamLabel": "Total Addressable Market",
+      "sam": "$20B+",
+      "samLabel": "Serviceable Addressable Market",
+      "som": "TBD",
+      "somLabel": "Serviceable Obtainable Market"
+    },
+    "layout": "nested-circles",
+    "style": "Professional investor presentation. Use exact colors: primary #1E3A5F, secondary #4A90D9, accent #F5A623. White background. Nested concentric circles: TAM (outer), SAM (middle), SOM (inner). Large dollar amounts in IBM Plex Mono. Clear labels.",
+    "dimensions": "1920x1080",
+    "narrativeContext": "## NARRATIVE CONTEXT\nSlide position: 6 of 12\nStory arc phase: Act 4: The Opportunity\nEmotional tone: Ambitious, data-driven",
+    "styleGuideReference": "\n## MANDATORY VISUAL SPECIFICATIONS (from style guide)\n\n### Colors\n- Deep Black: #0A0A0A (dark backgrounds)\n- Soft Black: #111111 (text on light)\n- Warm Cream: #E8E6E1 (light backgrounds)\n- Pure White: #FFFFFF (text on dark)\n- ARC Violet: #5E5CE6 (accent, highlights)\n- Status Green: #22C55E (positive indicators)\n- Data Cyan: #00D4FF (data visualization)\n\n### Typography\n- Headlines: Inter 600, 28-36px\n- Body text: Inter 400, 14-18px\n- Metrics: IBM Plex Mono 500, 48-64px\n- Labels: Inter 500 UPPERCASE, 12px, letter-spacing +0.1em\n- Taglines: Newsreader italic, 24px\n\n### Layout Rules\n- Margins: 0.5 inches on all sides\n- 40% minimum negative space\n- Left accent bar: 0.15in wide when used\n- Card padding: 0.15in internal\n\n### Content Constraints\n- Headlines: max 10 words\n- Bullets: max 3 per slide, 12 words each\n- Metrics: whole numbers (92% not 92.3%)\n- Currency: $1.2B format\n"
+  },
+  "competition": {
+    "slideType": "competition",
+    "description": "Competitive positioning 2x2 matrix",
+    "content": {
+      "headline": "COMPETITIVE LANDSCAPE",
+      "xAxisLabel": "OPEN ARCHITECTURE",
+      "yAxisLabel": "INDUSTRIAL EXECUTION",
+      "competitors": [
+        {
+          "name": "OpenAI / Anthropic",
+          "x": 0.2,
+          "y": 0.2,
+          "isUs": false
+        },
+        {
+          "name": "Google DeepMind",
+          "x": 0.3,
+          "y": 0.2,
+          "isUs": false
+        },
+        {
+          "name": "Legacy OEMs",
+          "x": 0.1,
+          "y": 0.8,
+          "isUs": false
+        },
+        {
+          "name": "Bright Machines",
+          "x": 0.5,
+          "y": 0.7,
+          "isUs": false
+        },
+        {
+          "name": "ARC",
+          "x": 0.9,
+          "y": 0.9,
+          "isUs": true
+        }
+      ],
+      "companyPosition": {
+        "x": 0.85,
+        "y": 0.85
+      }
+    },
+    "layout": "2x2-matrix",
+    "style": "Professional investor presentation. Use exact colors: primary #1E3A5F, secondary #4A90D9, accent #F5A623. White background. Clear axis labels. Company dot in upper-right quadrant with accent color. Competitors as gray dots with labels.",
+    "dimensions": "1920x1080",
+    "narrativeContext": "## NARRATIVE CONTEXT\nSlide position: 7 of 12\nStory arc phase: Act 4: The Opportunity\nEmotional tone: Strategic, differentiated",
+    "styleGuideReference": "\n## MANDATORY VISUAL SPECIFICATIONS (from style guide)\n\n### Colors\n- Deep Black: #0A0A0A (dark backgrounds)\n- Soft Black: #111111 (text on light)\n- Warm Cream: #E8E6E1 (light backgrounds)\n- Pure White: #FFFFFF (text on dark)\n- ARC Violet: #5E5CE6 (accent, highlights)\n- Status Green: #22C55E (positive indicators)\n- Data Cyan: #00D4FF (data visualization)\n\n### Typography\n- Headlines: Inter 600, 28-36px\n- Body text: Inter 400, 14-18px\n- Metrics: IBM Plex Mono 500, 48-64px\n- Labels: Inter 500 UPPERCASE, 12px, letter-spacing +0.1em\n- Taglines: Newsreader italic, 24px\n\n### Layout Rules\n- Margins: 0.5 inches on all sides\n- 40% minimum negative space\n- Left accent bar: 0.15in wide when used\n- Card padding: 0.15in internal\n\n### Content Constraints\n- Headlines: max 10 words\n- Bullets: max 3 per slide, 12 words each\n- Metrics: whole numbers (92% not 92.3%)\n- Currency: $1.2B format\n"
+  },
+  "product": {
+    "slideType": "product",
+    "description": "Product slide with architecture or feature visualization",
+    "content": {
+      "headline": "THE PLATFORM",
+      "description": "",
+      "features": [
+        {
+          "title": "ARCNET",
+          "description": "Federated network of ~1,000 modular 1MW nodes and edge devices."
+        },
+        {
+          "title": "ADAM",
+          "description": "Autonomous Discovery and Advanced Manufacturing platform."
+        },
+        {
+          "title": "ARC OS",
+          "description": "Orchestration, digital thread traceability, and governance."
+        }
+      ]
+    },
+    "layout": "product-features",
+    "style": "Professional investor presentation. Use exact colors: primary #1E3A5F, secondary #4A90D9, accent #F5A623. Clean product visualization. Numbered features on right side. Technical but accessible styling.",
+    "dimensions": "1920x1080",
+    "narrativeContext": "## NARRATIVE CONTEXT\nSlide position: 8 of 12\nStory arc phase: Act 2: The Solution\nEmotional tone: Technical, innovative",
+    "styleGuideReference": "\n## MANDATORY VISUAL SPECIFICATIONS (from style guide)\n\n### Colors\n- Deep Black: #0A0A0A (dark backgrounds)\n- Soft Black: #111111 (text on light)\n- Warm Cream: #E8E6E1 (light backgrounds)\n- Pure White: #FFFFFF (text on dark)\n- ARC Violet: #5E5CE6 (accent, highlights)\n- Status Green: #22C55E (positive indicators)\n- Data Cyan: #00D4FF (data visualization)\n\n### Typography\n- Headlines: Inter 600, 28-36px\n- Body text: Inter 400, 14-18px\n- Metrics: IBM Plex Mono 500, 48-64px\n- Labels: Inter 500 UPPERCASE, 12px, letter-spacing +0.1em\n- Taglines: Newsreader italic, 24px\n\n### Layout Rules\n- Margins: 0.5 inches on all sides\n- 40% minimum negative space\n- Left accent bar: 0.15in wide when used\n- Card padding: 0.15in internal\n\n### Content Constraints\n- Headlines: max 10 words\n- Bullets: max 3 per slide, 12 words each\n- Metrics: whole numbers (92% not 92.3%)\n- Currency: $1.2B format\n"
+  },
+  "businessModel": {
+    "slideType": "businessModel",
+    "description": "Business model slide with revenue streams and unit economics",
+    "content": {
+      "headline": "REVENUE MODEL",
+      "revenueStreams": [
+        {
+          "name": "ANCHOR CONTRACTS",
+          "description": "Funded programs (IBAS) ramp early deployment."
+        },
+        {
+          "name": "ARC OS SUBSCRIPTION",
+          "description": "High-margin recurring software revenue ($550K ACV)."
+        },
+        {
+          "name": "ARCNET USAGE",
+          "description": "Compute and manufacturing capacity priced on activity."
+        },
+        {
+          "name": "QUALIFICATION PROGRAMS",
+          "description": "Milestone-based service feeding subscription conversion."
+        }
+      ],
+      "unitEconomics": {
+        "subscriptionACV": "$550K",
+        "netRevenueRetention": "115%",
+        "grossMargins": "82% Subscription"
+      }
+    },
+    "layout": "revenue-cards",
+    "style": "Professional investor presentation. Use exact colors: primary #1E3A5F, secondary #4A90D9, accent #F5A623. Revenue stream cards with descriptions. Unit economics as key metrics. Clean financial presentation styling.",
+    "dimensions": "1920x1080",
+    "narrativeContext": "## NARRATIVE CONTEXT\nSlide position: 9 of 12\nStory arc phase: Act 4: The Opportunity\nEmotional tone: Pragmatic, scalable",
+    "styleGuideReference": "\n## MANDATORY VISUAL SPECIFICATIONS (from style guide)\n\n### Colors\n- Deep Black: #0A0A0A (dark backgrounds)\n- Soft Black: #111111 (text on light)\n- Warm Cream: #E8E6E1 (light backgrounds)\n- Pure White: #FFFFFF (text on dark)\n- ARC Violet: #5E5CE6 (accent, highlights)\n- Status Green: #22C55E (positive indicators)\n- Data Cyan: #00D4FF (data visualization)\n\n### Typography\n- Headlines: Inter 600, 28-36px\n- Body text: Inter 400, 14-18px\n- Metrics: IBM Plex Mono 500, 48-64px\n- Labels: Inter 500 UPPERCASE, 12px, letter-spacing +0.1em\n- Taglines: Newsreader italic, 24px\n\n### Layout Rules\n- Margins: 0.5 inches on all sides\n- 40% minimum negative space\n- Left accent bar: 0.15in wide when used\n- Card padding: 0.15in internal\n\n### Content Constraints\n- Headlines: max 10 words\n- Bullets: max 3 per slide, 12 words each\n- Metrics: whole numbers (92% not 92.3%)\n- Currency: $1.2B format\n"
+  },
+  "traction": {
+    "slideType": "traction",
+    "description": "Traction slide with key metrics and timeline",
+    "content": {
+      "headline": "TRACTION",
+      "metrics": [
+        {
+          "value": "SEP 2025",
+          "label": "DESKTOP METAL ACQUIRED"
+        },
+        {
+          "value": "NOV 2025",
+          "label": "DOE GENESIS PARTNER"
+        },
+        {
+          "value": "$200M",
+          "label": "POC ORDER VALUE"
+        },
+        {
+          "value": "3,162",
+          "label": "ORNL DIGITAL BUILDS"
+        }
+      ],
+      "milestones": [
+        "Acquired Desktop Metal; gained global installed base and IP.",
+        "Selected as launch partner for DOE Project Genesis.",
+        "First integrated ADAM platform operational at ORNL MDF.",
+        "Digital Factory dataset now exceeds 3,000 builds."
+      ]
+    },
+    "layout": "metrics-timeline",
+    "style": "Professional investor presentation. Use exact colors: primary #1E3A5F, secondary #4A90D9, accent #F5A623. Large metric callouts (IBM Plex Mono, 48-64px). Horizontal timeline below. Accent color for milestone markers.",
+    "dimensions": "1920x1080",
+    "narrativeContext": "## NARRATIVE CONTEXT\nSlide position: 10 of 12\nStory arc phase: Validation\nEmotional tone: Proven, momentum-driven",
+    "styleGuideReference": "\n## MANDATORY VISUAL SPECIFICATIONS (from style guide)\n\n### Colors\n- Deep Black: #0A0A0A (dark backgrounds)\n- Soft Black: #111111 (text on light)\n- Warm Cream: #E8E6E1 (light backgrounds)\n- Pure White: #FFFFFF (text on dark)\n- ARC Violet: #5E5CE6 (accent, highlights)\n- Status Green: #22C55E (positive indicators)\n- Data Cyan: #00D4FF (data visualization)\n\n### Typography\n- Headlines: Inter 600, 28-36px\n- Body text: Inter 400, 14-18px\n- Metrics: IBM Plex Mono 500, 48-64px\n- Labels: Inter 500 UPPERCASE, 12px, letter-spacing +0.1em\n- Taglines: Newsreader italic, 24px\n\n### Layout Rules\n- Margins: 0.5 inches on all sides\n- 40% minimum negative space\n- Left accent bar: 0.15in wide when used\n- Card padding: 0.15in internal\n\n### Content Constraints\n- Headlines: max 10 words\n- Bullets: max 3 per slide, 12 words each\n- Metrics: whole numbers (92% not 92.3%)\n- Currency: $1.2B format\n"
+  },
+  "team": {
+    "slideType": "team",
+    "description": "Team slide with founder/leadership cards",
+    "content": {
+      "headline": "LEADERSHIP",
+      "members": [
+        {
+          "name": "Bryan Wisk",
+          "title": "CEO & Founder",
+          "background": "20+ years capital markets; ex-Citigroup derivatives lead; investor-operator.",
+          "photo": "assets/headshots/bryan_wisk.jpg"
+        },
+        {
+          "name": "Paul Adams",
+          "title": "President & Co-Founder",
+          "background": "Ex-Morgan Stanley Head of Healthcare Services M&A; led $100B+ in deals.",
+          "photo": "assets/headshots/paul_adams.jpg"
+        },
+        {
+          "name": "Dr. Leo Christodoulou",
+          "title": "Chief Technologist",
+          "background": "Ex-Boeing Chief Tech; Ex-DARPA/DOE Director; XD Alloys inventor.",
+          "photo": "assets/headshots/leo_christodoulou.jpg"
+        }
+      ]
+    },
+    "layout": "team-cards",
+    "style": "Professional investor presentation. Use exact colors: primary #1E3A5F, secondary #4A90D9, accent #F5A623. Team member cards with photo placeholder circles, name, title, and key credential. Clean, professional layout.",
+    "dimensions": "1920x1080",
+    "narrativeContext": "## NARRATIVE CONTEXT\nSlide position: 11 of 12\nStory arc phase: Validation\nEmotional tone: Credible, experienced",
+    "styleGuideReference": "\n## MANDATORY VISUAL SPECIFICATIONS (from style guide)\n\n### Colors\n- Deep Black: #0A0A0A (dark backgrounds)\n- Soft Black: #111111 (text on light)\n- Warm Cream: #E8E6E1 (light backgrounds)\n- Pure White: #FFFFFF (text on dark)\n- ARC Violet: #5E5CE6 (accent, highlights)\n- Status Green: #22C55E (positive indicators)\n- Data Cyan: #00D4FF (data visualization)\n\n### Typography\n- Headlines: Inter 600, 28-36px\n- Body text: Inter 400, 14-18px\n- Metrics: IBM Plex Mono 500, 48-64px\n- Labels: Inter 500 UPPERCASE, 12px, letter-spacing +0.1em\n- Taglines: Newsreader italic, 24px\n\n### Layout Rules\n- Margins: 0.5 inches on all sides\n- 40% minimum negative space\n- Left accent bar: 0.15in wide when used\n- Card padding: 0.15in internal\n\n### Content Constraints\n- Headlines: max 10 words\n- Bullets: max 3 per slide, 12 words each\n- Metrics: whole numbers (92% not 92.3%)\n- Currency: $1.2B format\n"
+  },
+  "ask": {
+    "slideType": "ask",
+    "description": "Ask slide with funding amount, use of funds, and milestones",
+    "content": {
+      "headline": "THE ASK",
+      "amount": "$70M",
+      "useOfFunds": [
+        {
+          "percent": 30,
+          "category": "Desktop Metal Integration"
+        },
+        {
+          "percent": 25,
+          "category": "Engineering Hires (15-20)"
+        },
+        {
+          "percent": 25,
+          "category": "ARCNet Pilot Nodes"
+        },
+        {
+          "percent": 20,
+          "category": "Genesis Execution"
+        }
+      ],
+      "milestones": [
+        "Deliver Genesis milestones and initial platform deployments.",
+        "Build ARCNet technical team and secure pilots before Series A."
+      ]
+    },
+    "layout": "ask-funds-milestones",
+    "style": "Professional investor presentation. Use exact colors: primary #1E3A5F, secondary #4A90D9, accent #F5A623. Large funding amount hero (IBM Plex Mono, 64px). Use of funds as horizontal bar or segments. Key milestones below.",
+    "dimensions": "1920x1080",
+    "narrativeContext": "## NARRATIVE CONTEXT\nSlide position: 12 of 12\nStory arc phase: Call to Action\nEmotional tone: Direct, compelling",
+    "styleGuideReference": "\n## MANDATORY VISUAL SPECIFICATIONS (from style guide)\n\n### Colors\n- Deep Black: #0A0A0A (dark backgrounds)\n- Soft Black: #111111 (text on light)\n- Warm Cream: #E8E6E1 (light backgrounds)\n- Pure White: #FFFFFF (text on dark)\n- ARC Violet: #5E5CE6 (accent, highlights)\n- Status Green: #22C55E (positive indicators)\n- Data Cyan: #00D4FF (data visualization)\n\n### Typography\n- Headlines: Inter 600, 28-36px\n- Body text: Inter 400, 14-18px\n- Metrics: IBM Plex Mono 500, 48-64px\n- Labels: Inter 500 UPPERCASE, 12px, letter-spacing +0.1em\n- Taglines: Newsreader italic, 24px\n\n### Layout Rules\n- Margins: 0.5 inches on all sides\n- 40% minimum negative space\n- Left accent bar: 0.15in wide when used\n- Card padding: 0.15in internal\n\n### Content Constraints\n- Headlines: max 10 words\n- Bullets: max 3 per slide, 12 words each\n- Metrics: whole numbers (92% not 92.3%)\n- Currency: $1.2B format\n"
+  }
+}

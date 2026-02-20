@@ -1,0 +1,192 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Classified Context",
+  "description": "Output schema for the Claude classifier agent",
+  "type": "object",
+  "required": ["metadata", "slides"],
+  "properties": {
+    "metadata": {
+      "type": "object",
+      "required": ["classifiedAt", "totalDocuments"],
+      "properties": {
+        "classifiedAt": {
+          "type": "string",
+          "format": "date-time",
+          "description": "ISO timestamp of classification"
+        },
+        "totalDocuments": {
+          "type": "integer",
+          "minimum": 0,
+          "description": "Number of documents classified"
+        },
+        "storyDigest": {
+          "type": "string",
+          "description": "Hash of the story.md file used"
+        },
+        "styleDigest": {
+          "type": "string",
+          "description": "Hash of the style-guide.md file used"
+        },
+        "costIncurred": {
+          "type": "number",
+          "minimum": 0,
+          "description": "Total API cost in USD"
+        }
+      }
+    },
+    "slides": {
+      "type": "object",
+      "description": "Content organized by slide type",
+      "additionalProperties": {
+        "type": "object",
+        "properties": {
+          "relevantSources": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": ["filename", "relevanceScore"],
+              "properties": {
+                "filename": {
+                  "type": "string",
+                  "description": "Source document filename"
+                },
+                "relevanceScore": {
+                  "type": "number",
+                  "minimum": 0,
+                  "maximum": 1,
+                  "description": "Relevance score 0-1"
+                },
+                "extractedFacts": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/definitions/extractedContent"
+                  }
+                },
+                "quotes": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/definitions/extractedContent"
+                  }
+                },
+                "metrics": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/definitions/extractedContent"
+                  }
+                },
+                "allContent": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/definitions/extractedContent"
+                  }
+                }
+              }
+            }
+          },
+          "allContent": {
+            "type": "array",
+            "items": {
+              "$ref": "#/definitions/extractedContent"
+            }
+          },
+          "conflicts": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "field": {
+                  "type": "string"
+                },
+                "values": {
+                  "type": "array"
+                },
+                "sources": {
+                  "type": "array"
+                },
+                "recommendation": {
+                  "type": "string"
+                }
+              }
+            }
+          },
+          "dataQuality": {
+            "type": "object",
+            "properties": {
+              "completeness": {
+                "type": "number",
+                "minimum": 0,
+                "maximum": 1
+              },
+              "sourceCount": {
+                "type": "integer",
+                "minimum": 0
+              },
+              "avgConfidence": {
+                "type": "number",
+                "minimum": 0,
+                "maximum": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "globalConflicts": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Data conflicts found across documents"
+    },
+    "missingCritical": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Critical information not found in any document"
+    }
+  },
+  "definitions": {
+    "extractedContent": {
+      "type": "object",
+      "required": ["type", "content"],
+      "properties": {
+        "type": {
+          "type": "string",
+          "enum": [
+            "fact",
+            "statistic",
+            "quote",
+            "metric",
+            "tagline",
+            "pain_point",
+            "benefit",
+            "feature",
+            "milestone",
+            "team_member",
+            "competitor",
+            "other"
+          ]
+        },
+        "content": {
+          "type": "string",
+          "description": "The extracted content text"
+        },
+        "location": {
+          "type": "string",
+          "description": "Location in source document"
+        },
+        "confidence": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1,
+          "description": "Confidence score 0-1"
+        },
+        "source": {
+          "type": "string",
+          "description": "Source document filename"
+        }
+      }
+    }
+  }
+}

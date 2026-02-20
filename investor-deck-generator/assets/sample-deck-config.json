@@ -1,0 +1,206 @@
+{
+  "company": {
+    "name": "AcmeTech",
+    "tagline": "AI-Powered Manufacturing Intelligence",
+    "logo": "assets/logo.png"
+  },
+  "design": {
+    "primaryColor": "1E3A5F",
+    "secondaryColor": "4A90D9",
+    "accentColor": "F5A623",
+    "darkColor": "1F2937",
+    "lightColor": "F8FAFC",
+    "fontTitle": "Georgia",
+    "fontHeading": "Arial",
+    "fontBody": "Calibri"
+  },
+  "slides": [
+    {
+      "type": "title",
+      "tagline": "Transform Manufacturing with Predictive AI",
+      "subtitle": "Seed Round | Q1 2026"
+    },
+    {
+      "type": "purpose",
+      "statement": "We enable every manufacturer to predict and prevent equipment failures, without data scientists.",
+      "context": "Founded by manufacturing and AI veterans who experienced the problem firsthand."
+    },
+    {
+      "type": "problem",
+      "headline": "THE PROBLEM",
+      "points": [
+        "Manufacturers lose $50B annually to unplanned downtime—82% from equipment failures",
+        "Maintenance teams are flying blind with scattered data across 15+ disconnected systems",
+        "Existing AI solutions require PhD expertise and 6-12 month implementations"
+      ],
+      "statistic": "\"We spent $2M on sensors but still can't predict when machines will fail.\" — VP Ops, Fortune 500",
+      "image": "assets/problem-image.png"
+    },
+    {
+      "type": "solution",
+      "headline": "OUR SOLUTION",
+      "valueProposition": "Predictive AI that prevents equipment failures before they happen.",
+      "benefits": [
+        "Connect in minutes: Plug into existing sensors—no new hardware required",
+        "Predict with precision: ML models detect issues 72 hours ahead with 94% accuracy",
+        "Act with confidence: Clear recommendations prioritized by business impact"
+      ],
+      "image": "assets/solution-screenshot.png"
+    },
+    {
+      "type": "whyNow",
+      "headline": "WHY NOW?",
+      "trends": [
+        {
+          "title": "Sensor Proliferation",
+          "description": "IoT sensors now cost $0.50 (down from $50 in 2015). Every machine generates continuous data streams."
+        },
+        {
+          "title": "AI Breakthrough",
+          "description": "Foundation models enable training with 10x less data. Real-time inference now possible at edge."
+        },
+        {
+          "title": "Labor Shortage",
+          "description": "2.1M manufacturing jobs unfilled by 2030. Companies must do more with fewer experts."
+        }
+      ]
+    },
+    {
+      "type": "marketSize",
+      "headline": "MARKET OPPORTUNITY",
+      "tam": "$85B",
+      "tamDesc": "Global manufacturing predictive maintenance",
+      "sam": "$12B",
+      "samDesc": "North American discrete manufacturing",
+      "som": "$1.2B",
+      "somDesc": "Plants with 100+ machines ready for AI",
+      "growth": "Growing 23% annually as AI adoption accelerates. Source: Gartner 2025 Manufacturing Report"
+    },
+    {
+      "type": "competition",
+      "headline": "COMPETITIVE LANDSCAPE",
+      "xAxisLabel": "Ease of Implementation →",
+      "yAxisLabel": "AI Capability →",
+      "xAxisLow": "Complex",
+      "xAxisHigh": "Simple",
+      "competitors": [
+        { "name": "IBM", "x": 0.3, "y": 0.8, "isUs": false },
+        { "name": "Siemens", "x": 0.25, "y": 0.75, "isUs": false },
+        { "name": "PTC", "x": 0.4, "y": 0.5, "isUs": false },
+        { "name": "Uptake", "x": 0.6, "y": 0.55, "isUs": false },
+        { "name": "AcmeTech", "x": 0.85, "y": 0.9, "isUs": true }
+      ],
+      "advantages": [
+        "No-code setup vs. 6-month implementations",
+        "10x faster time-to-value",
+        "SMB pricing: $500/mo vs. $50K+ enterprise minimums",
+        "Pre-trained models for 50+ equipment types"
+      ]
+    },
+    {
+      "type": "product",
+      "headline": "THE PRODUCT",
+      "image": "assets/product-screenshot.png",
+      "features": [
+        {
+          "title": "One-Click Connect",
+          "description": "Integrate with 50+ data sources and sensor types in minutes"
+        },
+        {
+          "title": "AI-Powered Predictions",
+          "description": "Automatically surfaces failure risks 72 hours before they occur"
+        },
+        {
+          "title": "Action Center",
+          "description": "Turn predictions into work orders assigned to right teams"
+        },
+        {
+          "title": "ROI Dashboard",
+          "description": "Track downtime prevented and dollars saved in real-time"
+        }
+      ]
+    },
+    {
+      "type": "businessModel",
+      "headline": "BUSINESS MODEL",
+      "model": "Subscription SaaS with usage-based expansion",
+      "revenueStreams": [
+        {
+          "name": "Starter",
+          "description": "$500/month for up to 10 machines. Self-serve onboarding."
+        },
+        {
+          "name": "Growth",
+          "description": "$2,500/month for up to 50 machines. Dedicated success manager."
+        },
+        {
+          "name": "Enterprise",
+          "description": "Custom pricing, unlimited machines, SLA, dedicated support."
+        }
+      ],
+      "unitEconomics": "ACV: $18K | CAC: $4.5K | LTV: $54K | LTV/CAC: 12x | Gross Margin: 82%"
+    },
+    {
+      "type": "traction",
+      "headline": "TRACTION",
+      "metrics": [
+        { "value": "$850K", "label": "ARR" },
+        { "value": "42", "label": "Customers" },
+        { "value": "312%", "label": "YoY Growth" }
+      ],
+      "milestones": [
+        "Product launch: March 2025",
+        "First paying customer: April 2025",
+        "$500K ARR milestone: September 2025",
+        "Fortune 500 enterprise pilot signed: December 2025"
+      ]
+    },
+    {
+      "type": "team",
+      "headline": "THE TEAM",
+      "members": [
+        {
+          "name": "Sarah Chen",
+          "title": "CEO & Co-founder",
+          "background": "Ex-Siemens, led $200M product line. Stanford MBA.",
+          "photo": "assets/sarah.jpg"
+        },
+        {
+          "name": "Marcus Johnson",
+          "title": "CTO & Co-founder",
+          "background": "Ex-Google Brain, 10 patents in ML. MIT PhD.",
+          "photo": "assets/marcus.jpg"
+        },
+        {
+          "name": "Elena Rodriguez",
+          "title": "VP Engineering",
+          "background": "Ex-Tesla, scaled eng team 1→50. Carnegie Mellon.",
+          "photo": "assets/elena.jpg"
+        }
+      ],
+      "advisors": [
+        "Jane Smith (Former CEO, Manufacturing Corp)",
+        "Dr. John Doe (Stanford AI Lab)"
+      ]
+    },
+    {
+      "type": "ask",
+      "headline": "THE ASK",
+      "amount": "$3M",
+      "round": "Seed Round",
+      "useOfFunds": [
+        { "percent": "40", "category": "Engineering (hire 4 engineers)" },
+        { "percent": "30", "category": "Sales & Marketing" },
+        { "percent": "20", "category": "Customer Success" },
+        { "percent": "10", "category": "Operations" }
+      ],
+      "milestones": [
+        "Scale to 100 customers",
+        "Launch enterprise product tier",
+        "Achieve $2M ARR",
+        "Raise Series A from position of strength"
+      ],
+      "contact": "founders@acmetech.com | acmetech.com"
+    }
+  ]
+}

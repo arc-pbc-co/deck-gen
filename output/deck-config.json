@@ -1,0 +1,314 @@
+{
+  "company": {
+    "name": "Autonomous Resource Corporation",
+    "tagline": "AI-to-atom infrastructure for national manufacturing",
+    "logo": "assets/logo/arc.png"
+  },
+  "design": {
+    "primaryColor": "1E3A5F",
+    "secondaryColor": "4A90D9",
+    "accentColor": "F5A623",
+    "darkColor": "1F2937",
+    "lightColor": "F8FAFC",
+    "fontTitle": "Georgia",
+    "fontHeading": "Arial",
+    "fontBody": "Calibri"
+  },
+  "slides": [
+    {
+      "type": "title",
+      "tagline": "AI-to-atom infrastructure for national manufacturing",
+      "subtitle": "Seed Round | Q1 2026",
+      "image": "assets/title.png"
+    },
+    {
+      "type": "purpose",
+      "statement": "Closing the simulation-to-production loop with higher confidence.",
+      "context": "ARC pairs national-lab-grade AI compute with autonomous manufacturing execution to compress material qualification timelines from years to months.",
+      "image": "assets/purpose.png"
+    },
+    {
+      "type": "problem",
+      "headline": "THE BOTTLENECK",
+      "points": [
+        "Qualification is the bottleneck, not innovation.",
+        "Fragmented data systems break the digital thread.",
+        "Slow test-build-learn loops delay deployment."
+      ],
+      "statistic": {
+        "value": "18–36 MONTHS",
+        "label": "CONCEPT TO QUALIFIED COMPONENT"
+      },
+      "image": "assets/problem.png"
+    },
+    {
+      "type": "solution",
+      "headline": "THE SOLUTION",
+      "valueProposition": "ARC engineers an AI-to-atom loop: exascale compute + autonomous manufacturing execution.",
+      "benefits": [
+        "Massively parallel experimentation increases throughput velocity.",
+        "Continuous sense–reason–act learning improves confidence.",
+        "Integrated digital workflow compresses qualification timelines."
+      ],
+      "image": "assets/solution.png"
+    },
+    {
+      "type": "whyNow",
+      "headline": "WHY NOW?",
+      "trends": [
+        {
+          "title": "DOE PROJECT GENESIS",
+          "description": "Federal mobilization for AI-enabled manufacturing (Launched Nov 2025)."
+        },
+        {
+          "title": "INFRASTRUCTURE CAPEX",
+          "description": "AI infrastructure spending topped $60B in 2025."
+        },
+        {
+          "title": "STRATEGIC URGENCY",
+          "description": "Defense planners preparing for conflict window within 18 months."
+        }
+      ],
+      "image": "assets/whynow.png"
+    },
+    {
+      "type": "marketSize",
+      "headline": "MARKET OPPORTUNITY",
+      "tam": "TBD",
+      "tamDesc": "Multi-sector opportunity across AI infrastructure and advanced materials.",
+      "sam": "$20B+",
+      "samDesc": "Beachhead: Rare-earth-free magnets.",
+      "som": "TBD",
+      "somDesc": "Targeting critical defense and energy supply chains.",
+      "growth": "12.5% CAGR (Defense)",
+      "image": "assets/marketsize.png"
+    },
+    {
+      "type": "competition",
+      "headline": "COMPETITIVE LANDSCAPE",
+      "xAxisLabel": "OPEN ARCHITECTURE",
+      "yAxisLabel": "INDUSTRIAL EXECUTION",
+      "competitors": [
+        {
+          "name": "OpenAI / Anthropic",
+          "x": 0.2,
+          "y": 0.2,
+          "isUs": false
+        },
+        {
+          "name": "Google DeepMind",
+          "x": 0.3,
+          "y": 0.2,
+          "isUs": false
+        },
+        {
+          "name": "Legacy OEMs",
+          "x": 0.1,
+          "y": 0.8,
+          "isUs": false
+        },
+        {
+          "name": "Bright Machines",
+          "x": 0.5,
+          "y": 0.7,
+          "isUs": false
+        },
+        {
+          "name": "ARC",
+          "x": 0.9,
+          "y": 0.9,
+          "isUs": true
+        }
+      ],
+      "advantages": [
+        "Privileged access to ORNL Frontier exascale compute.",
+        "Immediate manufacturing capacity via Desktop Metal base.",
+        "Open, model-agnostic protocol layer.",
+        "Public-benefit mandate ensures affordability."
+      ],
+      "image": "assets/competition.png"
+    },
+    {
+      "type": "product",
+      "headline": "THE PLATFORM",
+      "features": [
+        {
+          "title": "ARCNET",
+          "description": "Federated network of ~1,000 modular 1MW nodes and edge devices."
+        },
+        {
+          "title": "ADAM",
+          "description": "Autonomous Discovery and Advanced Manufacturing platform."
+        },
+        {
+          "title": "ARC OS",
+          "description": "Orchestration, digital thread traceability, and governance."
+        }
+      ],
+      "image": "assets/product.png"
+    },
+    {
+      "type": "businessModel",
+      "headline": "REVENUE MODEL",
+      "model": "Recurring software subscriptions + usage-based compute/manufacturing.",
+      "revenueStreams": [
+        {
+          "name": "ANCHOR CONTRACTS",
+          "description": "Funded programs (IBAS) ramp early deployment."
+        },
+        {
+          "name": "ARC OS SUBSCRIPTION",
+          "description": "High-margin recurring software revenue ($550K ACV)."
+        },
+        {
+          "name": "ARCNET USAGE",
+          "description": "Compute and manufacturing capacity priced on activity."
+        },
+        {
+          "name": "QUALIFICATION PROGRAMS",
+          "description": "Milestone-based service feeding subscription conversion."
+        }
+      ],
+      "unitEconomics": {
+        "subscriptionACV": "$550K",
+        "netRevenueRetention": "115%",
+        "grossMargins": "82% Subscription"
+      },
+      "image": "assets/businessmodel.png"
+    },
+    {
+      "type": "traction",
+      "headline": "TRACTION",
+      "metrics": [
+        {
+          "value": "SEP 2025",
+          "label": "DESKTOP METAL ACQUIRED"
+        },
+        {
+          "value": "NOV 2025",
+          "label": "DOE GENESIS PARTNER"
+        },
+        {
+          "value": "$200M",
+          "label": "POC ORDER VALUE"
+        },
+        {
+          "value": "3,162",
+          "label": "ORNL DIGITAL BUILDS"
+        }
+      ],
+      "milestones": [
+        "Acquired Desktop Metal; gained global installed base and IP.",
+        "Selected as launch partner for DOE Project Genesis.",
+        "First integrated ADAM platform operational at ORNL MDF.",
+        "Digital Factory dataset now exceeds 3,000 builds."
+      ],
+      "image": "assets/traction.png"
+    },
+    {
+      "type": "team",
+      "headline": "LEADERSHIP",
+      "members": [
+        {
+          "name": "Bryan Wisk",
+          "title": "CEO & Founder",
+          "background": "20+ years capital markets; ex-Citigroup derivatives lead; investor-operator.",
+          "photo": "assets/headshots/bryan_wisk.jpg"
+        },
+        {
+          "name": "Paul Adams",
+          "title": "President & Co-Founder",
+          "background": "Ex-Morgan Stanley Head of Healthcare Services M&A; led $100B+ in deals.",
+          "photo": "assets/headshots/paul_adams.jpg"
+        },
+        {
+          "name": "Dr. Leo Christodoulou",
+          "title": "Chief Technologist",
+          "background": "Ex-Boeing Chief Tech; Ex-DARPA/DOE Director; XD Alloys inventor.",
+          "photo": "assets/headshots/leo_christodoulou.jpg"
+        }
+      ],
+      "advisors": [],
+      "image": "assets/team.png"
+    },
+    {
+      "type": "ask",
+      "headline": "THE ASK",
+      "amount": "$70M",
+      "round": "Seed | Uncapped SAFE | 25% Disc.",
+      "useOfFunds": [
+        {
+          "percent": 30,
+          "category": "Desktop Metal Integration"
+        },
+        {
+          "percent": 25,
+          "category": "Engineering Hires (15-20)"
+        },
+        {
+          "percent": 25,
+          "category": "ARCNet Pilot Nodes"
+        },
+        {
+          "percent": 20,
+          "category": "Genesis Execution"
+        }
+      ],
+      "milestones": [
+        "Deliver Genesis milestones and initial platform deployments.",
+        "Build ARCNet technical team and secure pilots before Series A."
+      ],
+      "contact": "investors@arc.net",
+      "image": "assets/ask.png"
+    }
+  ],
+  "imagePrompts": {
+    "marketSize": {
+      "description": "Minimalist graphic focusing on the $20B+ SAM Beachhead (Magnets) expanding into the larger industrial materials market.",
+      "style": "Clean business graphic, ARC Violet accent on the $20B circle, dark background.",
+      "dimensions": "1920x1080",
+      "textElements": [
+        "$20B+ Beachhead",
+        "Defense",
+        "Energy"
+      ]
+    },
+    "competition": {
+      "description": "2x2 Matrix. X-axis: Open Architecture. Y-axis: Industrial Execution. ARC in top-right (High/High).",
+      "style": "Technical grid background, quadrants clearly labeled. ARC logo prominent in top right.",
+      "dimensions": "1920x1080",
+      "positions": [
+        {
+          "name": "ARC",
+          "x": 0.9,
+          "y": 0.9
+        },
+        {
+          "name": "OpenAI/Anthropic",
+          "x": 0.2,
+          "y": 0.2
+        },
+        {
+          "name": "Legacy OEMs",
+          "x": 0.2,
+          "y": 0.8
+        }
+      ]
+    },
+    "product": {
+      "description": "Diagram showing the 'Sense-Reason-Act' loop. Left: ARCNet (Compute). Center: ADAM (Simulation/Reasoning). Right: Manufacturing (Robotic arm/Printer). Connected by a glowing digital thread.",
+      "style": "High-tech, schematic aesthetic, cyan data lines connecting the components on dark background.",
+      "dimensions": "1920x1080"
+    },
+    "traction": {
+      "description": "Horizontal timeline with four key nodes glowing in ARC Violet. 2025 focus.",
+      "style": "Linear, clean, industrial precision. Deep black background.",
+      "dimensions": "1920x1080"
+    },
+    "ask": {
+      "description": "Four distinct blocks or segments representing the Use of Funds. No specific percentages labeled on chart, just proportional visual weight.",
+      "style": "Minimalist bar or block chart. ARC Violet and Cyan accents.",
+      "dimensions": "1920x1080"
+    }
+  }
+}
